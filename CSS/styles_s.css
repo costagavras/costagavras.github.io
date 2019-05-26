@@ -58,7 +58,8 @@ body {
   -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-top: 0.5em; }
 
 .Switcher-dark {
   color: #fff; }
