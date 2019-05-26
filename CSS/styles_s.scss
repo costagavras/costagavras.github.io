@@ -112,6 +112,12 @@ body {
   }
 }
 
+.link_bootstrap {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
 .Switcher-root {
   position: relative;
   display: flex;
@@ -1244,7 +1250,7 @@ h4 {
   .moai_switch > div {
     margin: 0;
   }
-  .InfoPanel-switcher {
+  .InfoPanel-switcher, .InfoPanel-switcher > a {
     font-size: 1em;
   }
   .menu_flex {
@@ -1280,7 +1286,7 @@ h4 {
   .moai_switch > div {
     margin: 0;
   }
-  .InfoPanel-switcher {
+  .InfoPanel-switcher, .InfoPanel-switcher > a {
     font-size: 1em;
   }
   .menu_flex {
