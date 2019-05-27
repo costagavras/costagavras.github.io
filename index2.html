@@ -31,71 +31,80 @@
 
               <ul class="nav nav-pills">
                 <li class="nav-item">
-                  <a class="nav-link active"  data-toggle="pill" href="#">Dutch painters</a>
+                  <a class="nav-link active"  data-toggle="pill" href="#pills-dutch" role="tab">Dutch painters</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link"  data-toggle="pill" href="#">Movie snapshots</a>
+                  <a class="nav-link"  data-toggle="pill" href="#pills-movies" role="tab">Movie snapshots</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personal</a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item"  data-toggle="pill" href="#">Family's past</a>
+                    <a class="dropdown-item"  data-toggle="pill" href="#pills-family" role="tab">Family's past</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item"  data-toggle="pill" href="#">Own work</a>
+                    <a class="dropdown-item"  data-toggle="pill" href="#pills-meat" role="tab">Meet up there!</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item"  data-toggle="pill" href="#">Empty</a>
+                    <a class="dropdown-item"  data-toggle="pill" href="#pills-cheese" role="tab">Say "cheeeeese"!</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item"  data-toggle="pill" href="#">Empty</a>
+                    <a class="dropdown-item"  data-toggle="pill" href="#pills-empty2" role="tab">Empty2</a>
                   </div>
                 </li>
               </ul>
-
           </div>
+              <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-dutch" role="tabpanel" aria-labelledby="pills-dutch-tab">
+                  <div class="carousel_container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="slide1 d-block w-100"></div>
+                          <!-- <div class="carousel-caption d-none d-md-block">
+                            <h1>First slide label</h1>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                          </div> -->
+                        </div>
+                        <div class="carousel-item">
+                          <div class="slide2 d-block w-100"></div>
+                          <!-- <div class="carousel-caption d-none d-md-block">
+                            <h1>Second slide label</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div> -->
+                        </div>
+                        <div class="carousel-item">
+                          <div class="slide3 d-block w-100"></div>
+                          <!-- <div class="carousel-caption d-none d-md-block">
+                            <h1>Third slide label</h1>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                          </div> -->
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-movies" role="tabpanel" aria-labelledby="pills-movies-tab">...</div>
+                <div class="tab-pane fade" id="pills-family" role="tabpanel" aria-labelledby="pills-family-tab">...</div>
+                <div class="tab-pane fade" id="pills-meat" role="tabpanel" aria-labelledby="pills-meat-tab">...</div>
+                <div class="tab-pane fade" id="pills-cheese" role="tabpanel" aria-labelledby="pills-cheese-tab">...</div>
+                <div class="tab-pane fade" id="pills-empty2" role="tabpanel" aria-labelledby="pills-empty2-tab">...</div>
+              </div>
 
         </div>
 
-        <!-- Carousel -->
-        <!-- Surround everything with a div with the class carousel slide -->
-        <div class="carousel_container">
-          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="slide1 d-block w-100"></div>
-                <div class="carousel-caption d-none d-md-block">
-                  <h1>First slide label</h1>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="slide2 d-block w-100"></div>
-                <div class="carousel-caption d-none d-md-block">
-                  <h1>Second slide label</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="slide3 d-block w-100"></div>
-                <div class="carousel-caption d-none d-md-block">
-                  <h1>Third slide label</h1>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
+
 
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

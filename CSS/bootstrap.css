@@ -14,15 +14,15 @@
   .jumbotron ul li a {
     color: DodgerBlue;
     font-weight: bold; }
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: DodgerBlue; }
-
-.dropdown-item.active, .dropdown-item:active {
-  color: #fff;
-  text-decoration: none;
-  background-color: DodgerBlue; }
+  .jumbotron .display-4, .jumbotron .lead {
+    text-align: center; }
+  .jumbotron .nav-pills .nav-link.active, .jumbotron .nav-pills .show > .nav-link {
+    color: white;
+    background-color: DodgerBlue; }
+  .jumbotron .dropdown-item.active, .jumbotron .dropdown-item:active {
+    color: white;
+    text-decoration: none;
+    background-color: DodgerBlue; }
 
 /* Adds borders for tabs */
 .tab-content {

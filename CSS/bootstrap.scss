@@ -20,57 +20,54 @@
   .display-4, .lead {
     text-align: center;
   }
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: DodgerBlue ;
-}
-
-.dropdown-item.active, .dropdown-item:active {
-    color: #fff;
-    text-decoration: none;
-    background-color: DodgerBlue ;
-}
-
-/* Adds borders for tabs */
-.tab-content {
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 10px; }
-
-.nav-tabs {
-  margin-bottom: 0; }
-
-
-.navbar-header a img {
-  width: 2em;
-  padding-top: 5px;
-  padding-right: 5px;
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      color: white;
+      background-color: DodgerBlue ;
+  }
+  .dropdown-item.active, .dropdown-item:active {
+      color: white;
+      text-decoration: none;
+      background-color: DodgerBlue ;
+  }
 }
   /* Carousel Styling */
 .slide1{
-  background-image: url("../IMG/salami_galore1.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  .salami {
+    background-image: url("../IMG/salami_galore1.jpg");
+  }
+  .cheese {
+    background-image: url("../IMG/cheese_galore1.jpg");
+  }
 }
 .slide2{
-  background-image: url("../IMG/salami_galore2.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  .salami {
+    background-image: url("../IMG/salami_galore2.jpg");
+  }
+  .cheese {
+    background-image: url("../IMG/cheese_galore2.jpg");
+  }
 }
 .slide3{
-  background-image: url("../IMG/tough_choice.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  .salami {
+    background-image: url("../IMG/tough_choice.jpg");
+  }
+  .cheese {
+    background-image: url("../IMG/cheese_galore3.jpg");
+  }
 }
+
 .carousel-caption {
   h1 {
     font-size: 5.4em;
