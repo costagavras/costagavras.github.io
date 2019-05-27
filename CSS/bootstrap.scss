@@ -1,20 +1,36 @@
-// html {
-//   box-sizing: border-box;
-// }
-// *, *::before, *::after {
-//   box-sizing: inherit;
-// }
-// :root {
-// 	font-size: 16px;
-// }
+.btn_homepage {
+  margin: 1em;
+}
 
+.page-header {
+  text-align: center;
+}
 .navbar {
   margin: 1em;
 }
 
 .jumbotron {
-  background-color:#2E2D88;
-  color:white;
+  background-color: wheat;
+  color: sienna;
+  padding: 2rem;
+  ul li a {
+    color: DodgerBlue;
+    font-weight: bold;
+  }
+  .display-4, .lead {
+    text-align: center;
+  }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: DodgerBlue ;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: DodgerBlue ;
 }
 
 /* Adds borders for tabs */
@@ -63,12 +79,4 @@
   p {
     font-size: 2em;
   }
-}
-
-.btn_homepage {
-  margin: 1em;
-}
-
-.page-header {
-  text-align: center;
 }
