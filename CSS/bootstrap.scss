@@ -1,12 +1,12 @@
-html {
-  box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-:root {
-	font-size: 16px;
-}
+// html {
+//   box-sizing: border-box;
+// }
+// *, *::before, *::after {
+//   box-sizing: inherit;
+// }
+// :root {
+// 	font-size: 16px;
+// }
 
 .navbar {
   margin: 1em;
@@ -63,4 +63,12 @@ html {
   p {
     font-size: 2em;
   }
+}
+
+.btn_homepage {
+  margin: 1em;
+}
+
+.page-header {
+  text-align: center;
 }
