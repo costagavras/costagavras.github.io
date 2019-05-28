@@ -46,6 +46,12 @@
   background-image: url("../IMG/cheese_galore2.jpg"); }
 .carousel-item .cheese3 {
   background-image: url("../IMG/cheese_galore3.jpg"); }
+.carousel-item .movie1 {
+  background-image: url("../IMG/theswimmingpool.jpg"); }
+.carousel-item .movie2 {
+  background-image: url("../IMG/theleopard.jpg"); }
+.carousel-item .movie3 {
+  background-image: url("../IMG/forafewdollarsmore.jpg"); }
 
 .carousel-caption h1 {
   font-size: 5.4em;
