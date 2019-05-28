@@ -31,39 +31,34 @@
   }
 }
   /* Carousel Styling */
-.slide1{
+.tab-content {
+  padding: 0;
+}
+
+.slide1, .slide2, .slide3{
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  .salami {
+}
+
+.carousel-item {
+  .salami1 {
     background-image: url("../IMG/salami_galore1.jpg");
   }
-  .cheese {
-    background-image: url("../IMG/cheese_galore1.jpg");
-  }
-}
-.slide2{
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  .salami {
+  .salami2 {
     background-image: url("../IMG/salami_galore2.jpg");
   }
-  .cheese {
-    background-image: url("../IMG/cheese_galore2.jpg");
-  }
-}
-.slide3{
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  .salami {
+  .salami3 {
     background-image: url("../IMG/tough_choice.jpg");
   }
-  .cheese {
+  .cheese1 {
+    background-image: url("../IMG/cheese_galore1.jpg");
+  }
+  .cheese2 {
+    background-image: url("../IMG/cheese_galore2.jpg");
+  }
+  .cheese3 {
     background-image: url("../IMG/cheese_galore3.jpg");
   }
 }
