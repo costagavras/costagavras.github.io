@@ -52,6 +52,18 @@
   background-image: url("../IMG/theleopard.jpg"); }
 .carousel-item .movie3 {
   background-image: url("../IMG/forafewdollarsmore.jpg"); }
+.carousel-item .family1 {
+  background-image: url("../IMG/ded_boy.jpg"); }
+.carousel-item .family2 {
+  background-image: url("../IMG/ded_horse.jpg"); }
+.carousel-item .family3 {
+  background-image: url("../IMG/augustus.jpg"); }
+.carousel-item .dutch1 {
+  background-image: url("../IMG/Bisschop_The_Schiedam_gate_at_Delft.jpg"); }
+.carousel-item .dutch2 {
+  background-image: url("../IMG/Brueghel_Peasant_wedding.jpg"); }
+.carousel-item .dutch3 {
+  background-image: url("../IMG/van_de_Velde_The_Joy_of_ice_on_the_Wallgraben.jpg"); }
 
 .carousel-caption h1 {
   font-size: 5.4em;

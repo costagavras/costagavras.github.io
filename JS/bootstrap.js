@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
   $("#nav-salami").on("click", carousel_change);
   $("#nav-cheese").on("click", carousel_change);
   $("#nav-empty").on("click", carousel_change);
+  $("#nav-dutch").click();
 
   function carousel_change(e) {
     var tab_name = $(e.target).attr("id").split("-")[1];
