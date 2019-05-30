@@ -120,40 +120,52 @@
 }
 
 .ab_card {
-  .ab_card-title.dutch1::after {
-    content: "The Schiedam gate at Delft"
-  }
-  .ab_card-text.dutch1::after {
-    content: "by Bisschop"
-  }
-  .ab_card-title.dutch2::after {
-    content: "Peasant wedding"
-  }
-  .ab_card-text.dutch2::after {
-    content: "by Brueghel"
-  }
-  .ab_card-title.dutch3::after {
-    content: "The Joy of ice on the Wallgraben"
-  }
-  .ab_card-text.dutch3::after {
-    content: "by van de Velde"
-  }
+  .ab_card-title.dutch1::after {content: "The Schiedam gate at Delft"}
+  .ab_card-text.dutch1::after {content: "by Bisschop"}
+  .ab_card-title.dutch2::after {content: "Peasant wedding"}
+  .ab_card-text.dutch2::after {content: "by Brueghel"}
+  .ab_card-title.dutch3::after {content: "The joy of ice on the Wallgraben"}
+  .ab_card-text.dutch3::after {content: "by van de Velde"}
+  .ab_card-title.movie1::after {content: "The swimming pool (1969)"}
+  .ab_card-text.movie1::after {content: "with Alain Delon, Romy Schneider, Jane Birkin"}
+  .ab_card-title.movie2::after {content: "The leopard (1963)"}
+  .ab_card-text.movie2::after {content: "with Burt Lancaster, Alain Delon, Claudia Cardinale"}
+  .ab_card-title.movie3::after {content: "For a few dollars more (1965)"}
+  .ab_card-text.movie3::after {content: "with Clint Eastwood, Lee van Cleef, Gian Maria Volonte"}
+  .ab_card-title.family1::after {content: "Family archive"}
+  .ab_card-text.family1::after {content: "around 1918"}
+  .ab_card-title.family2::after {content: "Family archive"}
+  .ab_card-text.family2::after {content: "around 1924"}
+  .ab_card-title.family3::after {content: "Gibson house museum"}
+  .ab_card-text.family3::after {content: "North York, Toronto"}
+  .ab_card-title.salami1::after {content: "Belarusian supermarket"}
+  .ab_card-text.salami1::after {content: ""}
+  .ab_card-title.salami2::after {content: "Belarusian supermarket"}
+  .ab_card-text.salami2::after {content: ""}
+  .ab_card-title.salami3::after {content: "Belarusian supermarket"}
+  .ab_card-text.salami3::after {content: ""}
+  .ab_card-title.cheese1::after {content: "Belarusian supermarket"}
+  .ab_card-text.cheese1::after {content: ""}
+  .ab_card-title.cheese2::after {content: "Belarusian supermarket"}
+  .ab_card-text.cheese2::after {content: ""}
+  .ab_card-title.cheese3::after {content: "Belarusian supermarket"}
+  .ab_card-text.cheese3::after {content: ""}
 }
 
 .ff_card {
-    .dutch1::after {content: "found on World Gallery of Art (wga.hu)"}
+    .dutch1::after {content: "Found on World Gallery of Art (wga.hu)"}
     .dutch2::after {content: "Tavern scenes were popular amid Dutch masters"}
-    .dutch3::after {content: "Duch claim to be the inventors of skates"}
+    .dutch3::after {content: "Dutch claim to be the inventors of skates"}
     .movie1::after {content: "That Jane Birkin's look!"}
     .movie2::after {content: "Based on the novel by Lucchino Visconti"}
-    .movie3::after {content: "this movie is part of spaghetti western genre developped in Italy"}
-    .family1::after {content: "my great-grandfather is a child with the flag"}
-    .family2::after {content: "my great-grandfather on the horse"}
-    .family3::after {content: "Gibson house museum in North York, Toronto"}
-    .salami1::after {content: "touch choice"}
-    .salami2::after {content: "found on World Gallery of Art (wga.hu)"}
-    .salami3::after {content: "found on World Gallery of Art (wga.hu)"}
-    .cheese1::after {content: "found on World Gallery of Art (wga.hu)"}
-    .cheese2::after {content: "parmesan from Iraq (sic!)"}
-    .cheese3::after {content: "found on World Gallery of Art (wga.hu)"}
+    .movie3::after {content: "This movie is part of spaghetti western genre developped in Italy"}
+    .family1::after {content: "My great-grandfather is a child with the flag"}
+    .family2::after {content: "My great-grandfather on the horse"}
+    .family3::after {content: "Open to public"}
+    .salami1::after {content: "Tough choice"}
+    .salami2::after {content: ""}
+    .salami3::after {content: ""}
+    .cheese1::after {content: ""}
+    .cheese2::after {content: "Check the parmesan from Iraq (sic!)"}
+    .cheese3::after {content: ""}
 }
