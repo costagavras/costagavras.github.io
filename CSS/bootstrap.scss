@@ -120,9 +120,33 @@
 
 .ab_card {
   .ab_card-title.dutch1::after {
-    content: "The_Joy_of_ice_on_the_Wallgraben"
+    content: "The Schiedam gate at Delft"
   }
   .ab_card-text.dutch1::after {
+    content: "by Bisschop"
+  }
+  .ab_card-title.dutch2::after {
+    content: "Peasant wedding"
+  }
+  .ab_card-text.dutch2::after {
+    content: "by Brueghel"
+  }
+  .ab_card-title.dutch3::after {
+    content: "The Joy of ice on the Wallgraben"
+  }
+  .ab_card-text.dutch3::after {
     content: "by van de Velde"
+  }
+}
+
+.ff_card {
+  .ff_card-text.dutch1::after {
+    content: "found on World Gallery of Art (wga.hu)"
+  }
+  .ff_card-text.dutch2::after {
+    content: "found on World Gallery of Art (wga.hu)"
+  }
+  .ff_card-text.dutch3::after {
+    content: "found on World Gallery of Art (wga.hu)"
   }
 }
