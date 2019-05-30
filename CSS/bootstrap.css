@@ -80,6 +80,14 @@
   font-size: 2em; }
 
 .card {
+  max-width: 100%;
   margin: 0.5em; }
+  .card .card-title, .card .card-text {
+    word-wrap: break-word; }
+
+.ab_card .ab_card-title.dutch1::after {
+  content: "The_Joy_of_ice_on_the_Wallgraben"; }
+.ab_card .ab_card-text.dutch1::after {
+  content: "by van de Velde"; }
 
 /*# sourceMappingURL=bootstrap.css.map */

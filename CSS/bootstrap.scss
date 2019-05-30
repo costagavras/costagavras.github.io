@@ -1,32 +1,3 @@
-// @media (min-width: 1500px) {
-//   .container_images {
-//     min-width: 1400px;
-//   }
-// }
-//
-// @media (min-width: 1200px) {
-//   .container_images {
-//     min-width: 1400px;
-//   }
-// }
-//
-// @media (min-width: 992px) {
-//   .container_images {
-//     min-width: 1400px;
-//   }
-// }
-//
-// @media (min-width: 768px) {
-//   .container_images {
-//     min-width: 1400px;
-//   }
-// }
-//
-// @media (min-width: 576px) {
-//   .container_images {
-//     min-width: 1400px;
-//   }
-// }
 
 .container_images {
   width: 100%;
@@ -140,5 +111,18 @@
 }
 
 .card {
+  max-width: 100%;
   margin: 0.5em;
+  .card-title, .card-text {
+    word-wrap: break-word;
+  }
+}
+
+.ab_card {
+  .ab_card-title.dutch1::after {
+    content: "The_Joy_of_ice_on_the_Wallgraben"
+  }
+  .ab_card-text.dutch1::after {
+    content: "by van de Velde"
+  }
 }

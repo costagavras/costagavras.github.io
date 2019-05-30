@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(){
   var slides = document.querySelectorAll(".d-block");
   var tab_pane = document.querySelector(".tab-pane");
+  var ab_card_title = document.querySelector(".ab_card-title");
+  var ab_card_text = document.querySelector(".ab_card-text");
   $("#nav-dutch").on("click", carousel_change);
   $("#nav-movie").on("click", carousel_change);
   $("#nav-family").on("click", carousel_change);
