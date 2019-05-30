@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function(){
         slides[i].classList.add(tabName+(i+1));
       }
     }
+    card_change();
   }
 
   function card_change(e) {

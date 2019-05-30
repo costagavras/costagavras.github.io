@@ -3,7 +3,8 @@
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-bottom: 1em; }
 
 .btn_homepage {
   margin: 1em; }
@@ -37,7 +38,7 @@
 
 .slide1, .slide2, .slide3 {
   max-width: 100%;
-  height: 500px;
+  height: 750px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -98,11 +99,35 @@
 .ab_card .ab_card-text.dutch3::after {
   content: "by van de Velde"; }
 
-.ff_card .ff_card-text.dutch1::after {
+.ff_card .dutch1::after {
   content: "found on World Gallery of Art (wga.hu)"; }
-.ff_card .ff_card-text.dutch2::after {
+.ff_card .dutch2::after {
+  content: "Tavern scenes were popular amid Dutch masters"; }
+.ff_card .dutch3::after {
+  content: "Duch claim to be the inventors of skates"; }
+.ff_card .movie1::after {
+  content: "That Jane Birkin's look!"; }
+.ff_card .movie2::after {
+  content: "Based on the novel by Lucchino Visconti"; }
+.ff_card .movie3::after {
+  content: "this movie is part of spaghetti western genre developped in Italy"; }
+.ff_card .family1::after {
+  content: "my great-grandfather is a child with the flag"; }
+.ff_card .family2::after {
+  content: "my great-grandfather on the horse"; }
+.ff_card .family3::after {
+  content: "Gibson house museum in North York, Toronto"; }
+.ff_card .salami1::after {
+  content: "touch choice"; }
+.ff_card .salami2::after {
   content: "found on World Gallery of Art (wga.hu)"; }
-.ff_card .ff_card-text.dutch3::after {
+.ff_card .salami3::after {
+  content: "found on World Gallery of Art (wga.hu)"; }
+.ff_card .cheese1::after {
+  content: "found on World Gallery of Art (wga.hu)"; }
+.ff_card .cheese2::after {
+  content: "parmesan from Iraq (sic!)"; }
+.ff_card .cheese3::after {
   content: "found on World Gallery of Art (wga.hu)"; }
 
 /*# sourceMappingURL=bootstrap.css.map */

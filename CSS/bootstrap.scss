@@ -5,6 +5,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 1em;
 }
 
 .btn_homepage {
@@ -46,7 +47,7 @@
 
 .slide1, .slide2, .slide3{
   max-width: 100%;
-  height: 500px;
+  height: 750px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -140,13 +141,19 @@
 }
 
 .ff_card {
-  .ff_card-text.dutch1::after {
-    content: "found on World Gallery of Art (wga.hu)"
-  }
-  .ff_card-text.dutch2::after {
-    content: "found on World Gallery of Art (wga.hu)"
-  }
-  .ff_card-text.dutch3::after {
-    content: "found on World Gallery of Art (wga.hu)"
-  }
+    .dutch1::after {content: "found on World Gallery of Art (wga.hu)"}
+    .dutch2::after {content: "Tavern scenes were popular amid Dutch masters"}
+    .dutch3::after {content: "Duch claim to be the inventors of skates"}
+    .movie1::after {content: "That Jane Birkin's look!"}
+    .movie2::after {content: "Based on the novel by Lucchino Visconti"}
+    .movie3::after {content: "this movie is part of spaghetti western genre developped in Italy"}
+    .family1::after {content: "my great-grandfather is a child with the flag"}
+    .family2::after {content: "my great-grandfather on the horse"}
+    .family3::after {content: "Gibson house museum in North York, Toronto"}
+    .salami1::after {content: "touch choice"}
+    .salami2::after {content: "found on World Gallery of Art (wga.hu)"}
+    .salami3::after {content: "found on World Gallery of Art (wga.hu)"}
+    .cheese1::after {content: "found on World Gallery of Art (wga.hu)"}
+    .cheese2::after {content: "parmesan from Iraq (sic!)"}
+    .cheese3::after {content: "found on World Gallery of Art (wga.hu)"}
 }
