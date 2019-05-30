@@ -112,12 +112,6 @@ body {
   }
 }
 
-.link_bootstrap {
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
-}
-
 .Switcher-root {
   position: relative;
   display: flex;
@@ -714,7 +708,7 @@ h4 {
   display: grid;
 }
 
-.contact_grid_item {
+.contact_grid_item, .link_bootstrap {
   grid-template-columns: 25% 75%;
   img {
     width: 2.75em;
@@ -748,8 +742,28 @@ h4 {
   }
 }
 
+.my_apps {
+  margin-bottom: 0.3em;
+  padding-bottom: 0;
+}
+
+.link_bootstrap {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-style: italic;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+    transition-timing-function: ease-in-out;
+    &:hover {
+      color: DeepSkyBlue;
+      border-bottom: 3px solid DeepSkyBlue;
+    }
+}
 
 .portafolio_grid_item {
+  margin-top: 1em;
   img {
     width: 30%;
     padding: 0.5em 1em;

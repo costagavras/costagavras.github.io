@@ -42,11 +42,6 @@ body {
     .InfoPanel-switcher {
       font-size: 0.8em; } }
 
-.link_bootstrap {
-  font-weight: 600;
-  text-decoration: none;
-  color: black; }
-
 .Switcher-root {
   position: relative;
   display: flex;
@@ -541,22 +536,22 @@ h4 {
 .contact_grid, .contact_grid_item {
   display: grid; }
 
-.contact_grid_item {
+.contact_grid_item, .link_bootstrap {
   grid-template-columns: 25% 75%; }
-  .contact_grid_item img {
+  .contact_grid_item img, .link_bootstrap img {
     width: 2.75em;
     padding: 0.5em;
     margin-left: 75%; }
-  .contact_grid_item:hover > img {
+  .contact_grid_item:hover > img, .link_bootstrap:hover > img {
     transform: rotate(360deg);
     transition: transform 0.25s;
     transition-timing-function: ease-in-out; }
-  .contact_grid_item h3 {
+  .contact_grid_item h3, .link_bootstrap h3 {
     height: 1em;
     padding: 0.5em;
     margin: auto;
     margin-left: 5%; }
-  .contact_grid_item a {
+  .contact_grid_item a, .link_bootstrap a {
     color: white;
     text-decoration: none;
     font-style: italic;
@@ -564,16 +559,35 @@ h4 {
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.3s;
     transition-timing-function: ease-in-out; }
-    .contact_grid_item a:hover {
+    .contact_grid_item a:hover, .link_bootstrap a:hover {
       color: DeepSkyBlue;
       border-bottom: 3px solid DeepSkyBlue; }
 
-.portafolio_grid_item img {
-  width: 30%;
-  padding: 0.5em 1em;
-  transition: transform 1s ease-in-out; }
-  .portafolio_grid_item img:hover {
-    transform: scale(3); }
+.my_apps {
+  margin-bottom: 0.3em;
+  padding-bottom: 0; }
+
+.link_bootstrap {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-style: italic;
+  padding-bottom: 3px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+  transition-timing-function: ease-in-out; }
+  .link_bootstrap:hover {
+    color: DeepSkyBlue;
+    border-bottom: 3px solid DeepSkyBlue; }
+
+.portafolio_grid_item {
+  margin-top: 1em; }
+  .portafolio_grid_item img {
+    width: 30%;
+    padding: 0.5em 1em;
+    transition: transform 1s ease-in-out; }
+    .portafolio_grid_item img:hover {
+      transform: scale(3); }
 
 /* formatting for picture-slider*/
 .ch-item {
