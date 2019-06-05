@@ -52,4 +52,45 @@ document.addEventListener("DOMContentLoaded", function(){
     ffCardText.classList.add(activeSlideClass);
   }
 
+      var clock;
+      // Set dates.
+      var futureDate  = new Date("Fri, 07 Jun 2019 09:00:00 +0300");
+      var currentDate = new Date();
+      // Calculate the difference in seconds between the future and current date
+      var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+      // Calculate day difference and apply class to .clock for extra digit styling.
+      function dayDiff(first, second) {
+          return (second-first)/(1000*60*60*24);
+      }
+      if (dayDiff(currentDate, futureDate) < 100) {
+          $('#actionTimer').addClass('twoDayDigits');
+      } else {
+          $('#actionTimer').addClass('threeDayDigits');
+      }
+      if(diff < 0) {
+          diff = 0;
+      }
+      // Instantiate a countdown FlipClock
+      clock = $('#actionTimer').FlipClock(diff, {
+          clockFace: 'DailyCounter',
+          countdown: true,
+          language: 'english'
+      });
+
+      var fFrameResize = function(){
+        var parentBody = parent.document.body
+        var iframe = $('#ticket_timer_frame', parentBody);
+        if (iframe.length){
+          var iHeight = $(document.body).width() > 700 ? 141 : 121;
+          iframe.css({
+            'height': iHeight,
+            'min-height':iHeight
+          });
+        }
+      };
+      fFrameResize();
+      $(window).on('resize', function(){
+         fFrameResize();
+      });
+
 })
