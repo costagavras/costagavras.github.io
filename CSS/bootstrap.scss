@@ -1,3 +1,6 @@
+.container {
+  margin-bottom: 1em;
+}
 
 .container_images {
   width: 100%;
@@ -6,6 +9,14 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 2em;
+}
+
+.title {
+  font-size: 2em;
+  padding: 0.2em;
+  margin: 0.5em;
+  text-align: center;
+  line-height: normal;
 }
 
 .btn_homepage {
