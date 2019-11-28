@@ -489,7 +489,6 @@ svg {
 }
 
 .moai_switch > div {
-  margin: 1em;
   padding: 0.5em;
 }
 
@@ -748,8 +747,8 @@ h4 {
 }
 
 .link_bootstrap {
-    color: white;
-    font-size: 1.5rem;
+    color: DeepSkyBlue;
+    font-size: 1.5em;
     text-decoration: none;
     font-style: italic;
     padding-bottom: 3px;
@@ -757,7 +756,6 @@ h4 {
     transition: border-bottom 0.3s;
     transition-timing-function: ease-in-out;
     &:hover {
-      color: DeepSkyBlue;
       border-bottom: 3px solid DeepSkyBlue;
     }
 }
